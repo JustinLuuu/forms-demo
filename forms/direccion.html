@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
+    <title>Direccion</title>
+</head>
+
+<body class="bg-dark h-100 w-100">
+    <header class="bg-white py-1 position-fixed w-100">
+        <ul class="d-flex justify-content-between pt-3 container">
+            <li class="h4">
+                <a href="./cuenta.html">
+                    Cuenta
+                </a>
+            </li>
+
+            <li class="h4">
+                <a href="./billetera.html">
+                    Billetera
+                </a>
+            </li>
+
+            <li class="h4">
+                <a href="./direccion.html">
+                    Direccion
+                </a>
+            </li>
+
+            <li class="h4">
+                <a href="./login.html">
+                    Sesion
+                </a>
+            </li>
+        </ul>
+    </header>
+
+    <main class="container py-5 d-flex align-items-center vh-100 display-inline-block bg-gray">
+        <section class="w-100 row">
+            <div class="col-0 col-lg-5 d-flex align-items-center justify-content-center">
+                <img src="./img/ubicacion.png" alt="ubicacion" height="300" width="300" class="d-none d-lg-block shadow">
+            </div>
+
+            <div class="col-12 col-lg-5 d-flex flex-column pt-5">
+                <header>
+                    <h1 class="text-center text-white fw-bold border border-3 py-2">
+                        Direccion
+                    </h1>
+                </header>
+
+                <form>
+                    <div class="mt-2">
+                        <label class="form-label text-white fw-bold">Codigo postal</label>
+                        <input type="text" name="codigo-postal" class="form-control w-100" />
+                    </div>
+
+                    <div class="mt-2">
+                        <label class="form-label text-white fw-bold">Pais</label>
+                        <input type="text" name="pais" class="form-control" />
+                    </div>
+
+                    <div class="mt-2">
+                        <label class="form-label text-white fw-bold">Estado/Departamento</label>
+                        <input type="text" name="estado" class="form-control" />
+                    </div>
+
+                    <div class="mt-2">
+                        <label class="form-label text-white fw-bold">Provincia/Ciudad</label>
+                        <input type="text" name="ciudad" class="form-control" />
+                    </div>
+
+                    <input type="submit" class="btn btn-primary mt-3 w-100" value="ENVIAR"/>
+                </form>
+            </div>    
+            
+        </section>
+    </main>
+</body>
+
+</html>
